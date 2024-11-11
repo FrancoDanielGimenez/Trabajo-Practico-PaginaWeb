@@ -1,0 +1,8 @@
+.conteiner_footer{
+    border: solid 1px black;
+}
+
+.lista{
+    display: flex;
+    text-align: center;
+}
