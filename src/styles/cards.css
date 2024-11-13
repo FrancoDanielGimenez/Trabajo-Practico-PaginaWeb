@@ -1,0 +1,12 @@
+.contenier_cards{
+    border: solid;
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+    justify-content:center;
+    border-radius: 5px;
+}
+
+.btn_card{
+    border: solid;
+}

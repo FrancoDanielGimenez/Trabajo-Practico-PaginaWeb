@@ -1,8 +1,11 @@
+import '../styles/nav.css';
+import { NavLink } from "react-router-dom";
+
 const Nav = () =>{
     return(
         <>
-          <div>
-              Nav
+          <div className="conteiner_nav">
+                <NavLink>prueba</NavLink>
           </div>
         </>
     )

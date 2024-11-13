@@ -1,8 +1,22 @@
 .conteiner_footer{
-    border: solid 1px black;
+   margin: 0;
 }
 
-.lista{
+ul,ol{
+    list-style-type: none;
+    display: inline-block;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.lista_contenedor{
     display: flex;
-    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
