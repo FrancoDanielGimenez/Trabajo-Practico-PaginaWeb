@@ -2,9 +2,14 @@ import Footer from "../../components/Footer";
 import Nav from "../../components/Nav";
 import Cards from "../../components/Cards";
 import FondoImg from '../../../public/fondo_inicio.jpg';
+import { productos } from "../../mocks/newMocks"; 
+import { useState } from "react";
 
 
 const Home = () =>{
+
+  const [elementos, setElementos] = useState(productos);
+  console.log(elementos);
 
     return(
       <>
@@ -19,7 +24,7 @@ const Home = () =>{
               }}/>
           </div>
           <h1>Home</h1>
-          <Cards></Cards>
+          {elementos.map((blog)=>(<Cards blog={blog} key={blog.title} ></Cards>))}
           <Footer></Footer>
         </div>
       </>
