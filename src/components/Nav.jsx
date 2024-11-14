@@ -5,7 +5,15 @@ const Nav = () =>{
     return(
         <>
           <div className="conteiner_nav">
-                <NavLink>prueba</NavLink>
+            <div className='navLink1'>
+              <NavLink to={'/'}>Incio</NavLink>
+            </div>
+            <div className='navLink2'>
+              <NavLink to={'/Login'}>Iniciar Sesión</NavLink>
+            </div>
+            <div className='navLink3'>
+              <NavLink to={''} className="parrafoLink">Registrarse</NavLink>
+            </div>   
           </div>
         </>
     )

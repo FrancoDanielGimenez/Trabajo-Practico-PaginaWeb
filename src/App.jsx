@@ -1,4 +1,6 @@
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
+import Footer from './components/Footer.jsx';
+import Nav from './components/Nav.jsx';
 import CargaProductos from './productos/cargaProductos/CargaProductos';
 import ModificarProductos from './productos/modificarProductos/ModificarProductos.jsx'
 import ListaProductos from './productos/listaProductos/ListaProductos.jsx';
@@ -13,6 +15,7 @@ function App() {
     <>
       {/**Rutas */}
       <BrowserRouter>
+      <Nav/>
         <Routes>
           <Route path='/' element={<Home/>} /> {/**Ver Todos los blogs*/}
           <Route path='/Login' element={<Login/>} /> {/**Login de la pagina*/}
@@ -21,6 +24,7 @@ function App() {
           <Route path='/ListaProductos' element={<ListaProductos/>} /> {/**Lista los productos cargados*/}
           <Route path='/Cards/:idCards' element={<VerProductos/>} /> {/**Ver Productos*/}
         </Routes>
+        <Footer/>
       </BrowserRouter>   
     </>
   )

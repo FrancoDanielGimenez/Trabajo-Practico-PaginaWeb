@@ -1,0 +1,18 @@
+.conteiner_login{
+    border: solid;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.btn_login{
+    border: solid;
+    background-color: rgb(143, 206, 62);
+    color: white;
+}
+
+label{
+    display: block;
+}
+ 

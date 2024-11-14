@@ -1,5 +1,6 @@
 .conteiner_footer{
    margin: 0;
+   background-color: rgb(143, 206, 62) ;
 }
 
 ul,ol{
@@ -12,7 +13,7 @@ a{
 }
 
 a:hover{
-    color: red;
+    color: white;
 }
 
 .lista_contenedor{

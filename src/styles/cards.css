@@ -1,5 +1,5 @@
 .contenier_cards{
-    border: solid;
+    border: solid ;
     height: 400px;
     width: 400px;
     display:inline-block;
@@ -11,4 +11,11 @@
 
 .btn_card{
     border: solid;
+    color: white ;
+    background-color: rgb(143, 206, 62) ;
+}
+
+.btn_card:hover{
+    background-color: rgb(90, 133, 33);
+    border: white;
 }
