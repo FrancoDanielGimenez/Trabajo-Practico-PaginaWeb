@@ -22,7 +22,7 @@ function App() {
           <Route path='/CargaProductos' element={<CargaProductos/>} /> {/**Cargar los productos cargados*/}
           <Route path='/ModificarProductos' element={<ModificarProductos/>} /> {/**Modificar los productos cargados*/}
           <Route path='/ListaProductos' element={<ListaProductos/>} /> {/**Lista los productos cargados*/}
-          <Route path='/Cards/:idCards' element={<VerProductos/>} /> {/**Ver Productos*/}
+          <Route path='/productos/:idprod' element={<VerProductos/>} /> {/**Ver Productos*/}
         </Routes>
         <Footer/>
       </BrowserRouter>   

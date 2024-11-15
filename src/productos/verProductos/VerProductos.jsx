@@ -2,11 +2,13 @@ import { useParams } from "react-router-dom";
 
 const VerProductos = () =>{
 
-    const {idcard} = useParams();
+    //con el id buscar el blog que hay que mostrar
+    const {idprod} = useParams();
+
 
     return(
         <>
-        <div>Ver Productos{idcard}</div>
+        <div>Ver Productos {idprod}</div>
         </>
     )
 }

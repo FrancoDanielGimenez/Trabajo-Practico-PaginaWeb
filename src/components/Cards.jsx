@@ -1,24 +1,24 @@
 import { useNavigate } from 'react-router-dom';
 import '../styles/cards.css';
 
-const Cards = ({blog}) =>{
+const Cards = ({prod}) =>{
 
     const navigate = useNavigate()
 
     const handleClick = () =>{
-      navigate(`/cards/${blog.source.id}`)
+      navigate(`/productos/${prod.id}`)
     }
 
     return(
         <>
         <div className='contenier_cards'>
-          <img src={blog.img} alt="imagen de pc" height={150} width={150}  />
+          <img src={prod.img} alt="imagen de pc" height={150} width={150}  />
           <div className='descripcion'>
-            <h3>{blog.title}</h3>
-            <p>{blog.descripcion}</p>
-            <p>${blog.precio}</p>
+            <h3>{prod.title}</h3>
+            <p>{prod.descripcion}</p>
+            <p>${prod.precio}</p>
           </div>
-          <button type="button" className='btn_card' onClick={handleClick}>Ingresar</button>
+          <button type="button" className='btn_card' onClick={handleClick}>Ver Más</button>
         </div>
         </>
     )

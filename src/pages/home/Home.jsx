@@ -6,7 +6,6 @@ import { useState } from "react";
 const Home = () =>{
 
   const [elementos, setElementos] = useState(productos);
-  console.log(elementos);
 
     return(
       <>
@@ -20,7 +19,7 @@ const Home = () =>{
               }}/>
           </div>
           <h1>Home</h1>
-          {elementos.map((blog)=>(<Cards blog={blog} key={blog.title} ></Cards>))}
+          {elementos.map((prod)=>(<Cards prod={prod} key={prod.title} ></Cards>))}
         </div>
       </>
     )
