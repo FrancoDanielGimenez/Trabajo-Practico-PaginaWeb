@@ -1,5 +1,4 @@
 import Cards from "../../components/Cards";
-import FondoImg from '../../../public/fondo_inicio.jpg';
 import { productos } from "../../mocks/newMocks"; 
 import { useState } from "react";
 
@@ -13,9 +12,9 @@ const Home = () =>{
       <>
         <div>
           <div>
-            <img src={FondoImg} alt="fondo de pantalla" style={{
+            <img src="https://fastly.jsdelivr.net/gh/persano/BannersWebMaximus/top-slider/Hatp2024.webp" alt="fondo de pantalla" style={{
                 width: "100%",
-                height: "400px",
+                height: "auto",
                 display: "block",
                 objectFit: "cover",
               }}/>

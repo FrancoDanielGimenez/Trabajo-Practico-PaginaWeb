@@ -13,7 +13,7 @@ const Nav = () =>{
             </div>
             <div className='navLink3'>
               <NavLink to={''} className="parrafoLink">Registrarse</NavLink>
-            </div>   
+            </div>  
           </div>
         </>
     )

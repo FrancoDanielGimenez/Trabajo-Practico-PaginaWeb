@@ -21,3 +21,7 @@ a:hover{
     flex-direction: row;
     justify-content: space-around;
 }
+
+p{
+    margin: 0;
+}

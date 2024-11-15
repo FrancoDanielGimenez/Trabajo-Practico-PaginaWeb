@@ -1,0 +1,14 @@
+.form_carga_productos{
+    margin: auto ;
+    border: solid;
+    border-radius: 5px;
+    width: 400px;
+    height: 410px;
+}
+
+button{
+    border: solid;
+    border-radius: 5px;
+    margin: 0px 5px 5px 5px;
+}
+
