@@ -5,17 +5,17 @@ const CargaProductos = () =>{
     return(
         <>
         <div>
-          <h1>Carga de Productos</h1>
+          <h2>Carga de Productos</h2>
           <div className='form_carga_productos'>
             <form action="" method="get">
-              <label htmlFor="producto"><b>Producto </b></label>
-              <input type="text" name="" id="producto" />
-              <label htmlFor="descripcion"><b>Descripcion</b> </label>
-              <textarea name="" id="descripcion" cols={20} rows={10}></textarea>
-              <label htmlFor="precio"><b>Precio</b></label>
-              <input type="number" name="" id="precio" />
-              <label htmlFor="imagen"><b>Imagen</b></label>
-              <input type="file" name="" id="imagen" /> 
+              <label htmlFor="producto" className='label_cargaProd'><b>Producto </b></label>
+              <input type="text" name="" id="producto" className='input_cargaProd'/>
+              <label htmlFor="descripcion" className='label_cargaProd'><b>Descripcion</b> </label>
+              <textarea name="" id="descripcion" className='input_cargaProd'></textarea>
+              <label htmlFor="precio" className='label_cargaProd'><b>Precio</b></label>
+              <input type="number" name="" id="precio" className='input_cargaProd' />
+              <label htmlFor="imagen" className='label_cargaProd'><b>Imagen</b></label>
+              <input type="file" name="" id="imagen" className='input_cargaProd' /> 
             </form>
             <br />
             <div className='btn_carga_producto'>
