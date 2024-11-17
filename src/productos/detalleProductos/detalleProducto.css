@@ -1,7 +1,7 @@
-.contenier_cards{
+.contenier_detalle{
     border: solid ;
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: auto;
     display:inline-block;
     justify-content:center;
     border-radius: 5px;
@@ -9,14 +9,14 @@
    
 }
 
-.btn_card{
+.btn_volver{
     border: solid;
     color: white ;
     background-color: rgb(143, 206, 62) ;
 }
 
-.btn_card:hover{
+.btn_volver:hover{
     background-color: rgb(90, 133, 33);
     border: white;
-    border: 1px solid rgb(90, 133, 33);
+    border: solid;
 }
