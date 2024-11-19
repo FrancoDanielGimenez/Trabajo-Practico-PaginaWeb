@@ -1,12 +1,9 @@
-// import Nav from "../../components/Nav";
-// import Footer from "../../components/Footer";
 import './login.css';
 
 const Login = () => {
     return(
         <>
-        
-          login
+        login
           <div className="conteiner_login">
               <h2>Iniciar Sesión</h2>
               <div className="form_login">

@@ -5,6 +5,7 @@ import CargaProductos from './productos/cargaProductos/CargaProductos';
 import ModificarProductos from './productos/modificarProductos/ModificarProductos.jsx'
 import ListaProductos from './productos/listaProductos/ListaProductos.jsx';
 import VerProductos from './productos/verProductos/VerProductos.jsx'
+import RegistroNewUsuario from './users/register/RegistroNewUsuario.jsx';
 import Home from './pages/home/Home';
 import Login from './users/login/Login.jsx'
 import './App.css'
@@ -23,6 +24,7 @@ function App() {
           <Route path='/ModificarProductos' element={<ModificarProductos/>} /> {/**Modificar los productos cargados*/}
           <Route path='/ListaProductos' element={<ListaProductos/>} /> {/**Lista los productos cargados*/}
           <Route path='/productos/:idprod' element={<VerProductos/>} /> {/**Ver Productos*/}
+          <Route path='/RegistroNewUsuario' element={<RegistroNewUsuario/>} /> {/**Registrar nuevo Usuario Cliente o Proveedor*/}
         </Routes>
         <Footer/>
       </BrowserRouter>   
@@ -30,4 +32,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
