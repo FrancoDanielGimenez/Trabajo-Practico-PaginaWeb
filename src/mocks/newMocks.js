@@ -12,7 +12,7 @@ export const productos = [
       title:"Notebook",
       descripcion:"Notebook CX Intel Core I7 1165G7 16G SSD240G LED15,6 FHD",
       img:"https://tiendadiggit.com.ar/web/image/product.template/248788/image_1024?unique=ddfd9a4",
-      precio:961.180,
+      precio:961.182,
       contenido:"La Notebook N14X1010 Noblex es una herramienta confiable y eficiente diseñada para usuarios que buscan una combinación de portabilidad, rendimiento y accesibilidad. Con su procesador Intel Celeron N4020C y 4GB de memoria, esta laptop maneja tareas cotidianas como navegación web, edición de documentos y reproducción de multimedia con fluidez. La pantalla de 14.1 pulgadas con resolución HD proporciona una experiencia visual clara y nítida, ideal para ver videos, realizar videollamadas y trabajar en proyectos. La tecnología TN asegura tiempos de respuesta rápidos.El almacenamiento SSD de 128GB mejora la velocidad de arranque y la apertura de aplicaciones, haciendo que el uso diario sea ágil y sin interrupciones. La batería de 5000mAh ofrece una duración considerable, permitiendo horas de uso sin necesidad de cargar, ideal para estudiantes y profesionales en movimiento.Con Windows 11 preinstalado, la interfaz moderna y las nuevas funcionalidades están al alcance de la mano, mejorando la productividad y el entretenimiento."
     },
     {
@@ -52,7 +52,7 @@ export const productos = [
       title:"Microprocesadores",
       descripcion:"Procesador AMD Ryzen 5 5600GT AM4",
       img:"https://backupcomputacion.com/imagenes//articulos/procesadores/microprocesador_intel_core_i7_9700f01.jpg",
-      precio:195.320,
+      precio:195.321,
       contenido:"Es un dispositivo que realiza las funciones de la CPU en un único circuito integrado. Se pone en marcha cuando inicias tu ordenador y se encarga de activar el sistema operativo y los programas correspondientes. También realiza operaciones de diversa índole. Podría albergar una o varias CPU (unidad central de procesamiento), una ALU (unidad aritmético-lógica) y una unidad de cálculo en coma flotante. Se conecta a la placa base mediante un zócalo concreto. Suele añadirse un disipador de calor para evitar que se caliente demasiado."
     },
     {
@@ -60,7 +60,7 @@ export const productos = [
       title:"Router-Modem-Extensor WI-FI",
       descripcion:"ROUTER WIFI TP-LINK TL-WR820N",
       img:"https://s3-sa-east-1.amazonaws.com/saasargentina/GMy4dJFB0Wx7Gg6FR0QE/imagen",
-      precio:20.560,
+      precio:20.565,
       contenido:"Un Extensor permite ampliar la cobertura de tu red WiFi mediante una conexión física (cableada), por lo que replicará la señal WiFi original del módem con la misma calidad que la original."
     },
     {
@@ -68,7 +68,7 @@ export const productos = [
       title:"Tv Box - Chromecast Smart Tv",
       descripcion:"Chromecast 4 - Tv Hdmi Wifi Smart 4K",
       img:"https://www.lpnk.com.ar/Temp/App_WebSite/App_PictureFiles/Items/CONV-FHD-TV_800.jpg",
-      precio:128.500,
+      precio:128.565,
       contenido:"Este dispositivo tecnológico cuenta con el sistema operativo Android. El cual pasa a ser utilizable mediante el televisor en cuestión. Para que el panel, indistintamente de la marca fabricante, recibe la señal del aparato de smart TV es imprescindible establecer conexión entre ambos elementos. Acción que generalmente se realiza por medio de un cable HDMI. Conviene destacar que el smart tv box es ideal para televisores antiguos. "
     },
     {

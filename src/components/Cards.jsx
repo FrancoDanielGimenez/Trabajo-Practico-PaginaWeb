@@ -19,6 +19,7 @@ const Cards = ({prod}) =>{
             <p>${prod.precio}</p>
           </div>
           <button type="button" className='btn_card' onClick={handleClick}>Ver Más</button>
+          <button type='button' className='btn_card' >Comprar</button>
         </div>
         </>
     )

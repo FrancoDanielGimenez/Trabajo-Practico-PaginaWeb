@@ -6,6 +6,7 @@ import ModificarProductos from './productos/modificarProductos/ModificarProducto
 import ListaProductos from './productos/listaProductos/ListaProductos.jsx';
 import VerProductos from './productos/verProductos/VerProductos.jsx'
 import RegistroNewUsuario from './users/register/RegistroNewUsuario.jsx';
+import CompraProductos from './productos/compraProductos/CompraProductos.jsx';
 import Home from './pages/home/Home';
 import Login from './users/login/Login.jsx'
 import './App.css'
@@ -25,6 +26,7 @@ function App() {
           <Route path='/ListaProductos' element={<ListaProductos/>} /> {/**Lista los productos cargados*/}
           <Route path='/productos/:idprod' element={<VerProductos/>} /> {/**Ver Productos*/}
           <Route path='/RegistroNewUsuario' element={<RegistroNewUsuario/>} /> {/**Registrar nuevo Usuario Cliente o Proveedor*/}
+          <Route path='/CompraProductos' element={<CompraProductos/>} /> {/**Registrar nuevo Usuario Cliente o Proveedor*/}
         </Routes>
         <Footer/>
       </BrowserRouter>   

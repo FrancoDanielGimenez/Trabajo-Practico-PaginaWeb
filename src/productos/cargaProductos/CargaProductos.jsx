@@ -12,6 +12,8 @@ const CargaProductos = () =>{
               <input type="text" name="" id="producto" className='input_cargaProd'/>
               <label htmlFor="descripcion" className='label_cargaProd'><b>Descripcion</b> </label>
               <textarea name="" id="descripcion" className='input_cargaProd'></textarea>
+              <label htmlFor="contenido" className='label_cargaProd'><b>Contenido</b> </label>
+              <textarea name="" id="contenido" className='input_cargaProd'></textarea>
               <label htmlFor="precio" className='label_cargaProd'><b>Precio</b></label>
               <input type="number" name="" id="precio" className='input_cargaProd' />
               <label htmlFor="imagen" className='label_cargaProd'><b>Imagen</b></label>
