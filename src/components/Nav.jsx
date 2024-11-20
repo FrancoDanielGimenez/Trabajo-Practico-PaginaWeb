@@ -1,24 +1,26 @@
 import '../styles/nav.css';
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse, faFilePen, faCartShopping , faUser , faTruckFast} from '@fortawesome/free-solid-svg-icons';
 
 const Nav = () =>{
     return(
         <>
           <div className="conteiner_nav">
             <div className='navLink1'>
-              <NavLink to={'/'}>Incio</NavLink>
+              <NavLink to={'/'}><FontAwesomeIcon icon={faHouse}/> Incio</NavLink>
             </div>
             <div className='navLink1'>
-              <NavLink to={'/CompraProductos'}>Compras</NavLink>
+              <NavLink to={'/CompraProductos'}><FontAwesomeIcon icon={faCartShopping} /> Carrito</NavLink>
             </div>
             <div className='navLink1'>
-              <NavLink to={'/CargaProductos'}>Proveedores</NavLink>
+              <NavLink to={'/CargaProductos'}><FontAwesomeIcon icon={faTruckFast} /> Proveedores</NavLink>
             </div>
             <div className='navLink2'>
-              <NavLink to={'/Login'}>Iniciar Sesión</NavLink>
+              <NavLink to={'/Login'}><FontAwesomeIcon icon={faUser} /> Iniciar Sesión</NavLink>
             </div>
             <div className='navLink3'>
-              <NavLink to={'/RegistroNewUsuario'}>Registrarse</NavLink>
+              <NavLink to={'/RegistroNewUsuario'}><FontAwesomeIcon icon={faFilePen} /> Registrarse</NavLink>
             </div>  
           </div>
         </>

@@ -1,4 +1,6 @@
 import './login.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser, faLock } from '@fortawesome/free-solid-svg-icons';
 
 const Login = () => {
     return(
@@ -7,9 +9,9 @@ const Login = () => {
               <h2>Iniciar Sesión</h2>
               <div className="form_login">
                 <form action="">
-                    <label htmlFor=""><b>Usuario</b></label>
+                    <label htmlFor=""><FontAwesomeIcon icon={faUser} /> <b>Usuario</b></label>
                     <input type="text" name="" id="" />
-                    <label htmlFor=""><b>Contraseña</b></label>
+                    <label htmlFor=""><FontAwesomeIcon icon={faLock} /> <b>Contraseña</b></label>
                     <input type="password" name="" id="" />
                 </form>
                 <br />

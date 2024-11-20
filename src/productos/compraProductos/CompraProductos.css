@@ -19,3 +19,8 @@ th, td{
     border: solid 1px black;
 }
 
+.tabla_precio{
+    margin: 0 0 0 10px;
+    width: 15%;
+    border-collapse: collapse;
+}

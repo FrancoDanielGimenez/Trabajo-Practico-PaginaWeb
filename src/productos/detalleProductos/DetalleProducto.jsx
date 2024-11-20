@@ -13,7 +13,7 @@ const DetalleProducto = ({prod}) =>{
         <>
         <div>
           <div className='contenier_detalle'>
-            <img src={prod.img} alt="imagen de pc" height={150} width={150}  />
+            <img src={prod.img} alt="imagen de pc" height={250} width={250}  />
             <div className='descripcion'>
               <h3>{prod.title}</h3>
               <p>{prod.descripcion}</p>

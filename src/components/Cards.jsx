@@ -1,4 +1,7 @@
 import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+
 import '../styles/cards.css';
 
 const Cards = ({prod}) =>{
@@ -18,8 +21,8 @@ const Cards = ({prod}) =>{
             <p>{prod.descripcion}</p>
             <p>${prod.precio}</p>
           </div>
-          <button type="button" className='btn_card' onClick={handleClick}>Ver Más</button>
-          <button type='button' className='btn_card' >Comprar</button>
+          <button type="button" className='btn_card' onClick={handleClick}><FontAwesomeIcon icon={faMagnifyingGlass} /> Ver Más</button>
+          <button type='button' className='btn_card'><FontAwesomeIcon icon={faCartShopping} /> Comprar</button>
         </div>
         </>
     )
