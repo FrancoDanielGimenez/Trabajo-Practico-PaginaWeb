@@ -15,11 +15,11 @@ const Cards = ({prod}) =>{
     return(
         <>
         <div className='contenier_cards'>
-          <img src={prod.img} alt="imagen de pc" height={150} width={150}  />
+          <img src={prod.img} alt="imagen del producto" height={150} width={150}  />
           <div className='descripcion'>
             <h3>{prod.title}</h3>
             <p>{prod.descripcion}</p>
-            <p>${prod.precio}</p>
+            <h4>${prod.precio.toFixed(0)}</h4> {/* quitar decimales */}
           </div>
           <button type="button" className='btn_card' onClick={handleClick}><FontAwesomeIcon icon={faMagnifyingGlass} /> Ver Más</button>
           <button type='button' className='btn_card'><FontAwesomeIcon icon={faCartShopping} /> Comprar</button>
