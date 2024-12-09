@@ -8,7 +8,7 @@ const Nav = () =>{
         <>
           <div className="conteiner_nav">
             <div className='navLink1'>
-              <NavLink to={'/'}><FontAwesomeIcon icon={faHouse}/> Incio</NavLink>
+              <NavLink to={'/'}><FontAwesomeIcon icon={faHouse}/> Inicio</NavLink>
             </div>
             <div className='navLink1'>
               <NavLink to={'/CompraProductos'}><FontAwesomeIcon icon={faCartShopping} /> Carrito</NavLink>

@@ -18,8 +18,11 @@ const Home = () =>{
                 objectFit: "cover",
               }}/>
           </div>
-          <h1>Home</h1>
+          <h1>Nuestros productos:</h1>
+          <div>
           {elementos.map((prod)=>(<Cards prod={prod} key={prod.title} ></Cards>))}
+          </div>
+         
         </div>
       </>
     )

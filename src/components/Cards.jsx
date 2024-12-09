@@ -19,7 +19,7 @@ const Cards = ({prod}) =>{
           <div className='descripcion'>
             <h3>{prod.title}</h3>
             <p>{prod.descripcion}</p>
-            <h4>${prod.precio.toFixed(0)}</h4> {/* quitar decimales */}
+            <h2>${prod.precio.toFixed(0)}</h2> {/* h2 y quitar decimales */}
           </div>
           <button type="button" className='btn_card' onClick={handleClick}><FontAwesomeIcon icon={faMagnifyingGlass} /> Ver Más</button>
           <button type='button' className='btn_card'><FontAwesomeIcon icon={faCartShopping} /> Comprar</button>
