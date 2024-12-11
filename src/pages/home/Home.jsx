@@ -1,11 +1,24 @@
 import Cards from "../../components/Cards";
-import { productos } from "../../mocks/newMocks"; 
-import { useState } from "react";
+import { useEffect,useState } from "react";
+const backurl = import.meta.env.VITE_BACK_URL
 
 
 const Home = () =>{
 
-  const [elementos, setElementos] = useState(productos);
+  const [productos, setProductos] = useState([]);
+  
+  useEffect(() => {
+    const fetchback = async () => {
+      const response = await fetch( "http://localhost:3000/productos");
+      const data = await response.json();
+      setProductos(data.data)
+
+   
+    }
+
+    fetchback()
+  },[])
+
 
     return(
       <>
@@ -19,7 +32,7 @@ const Home = () =>{
               }}/>
           </div>
           <h1>Home</h1>
-          {elementos.map((prod)=>(<Cards prod={prod} key={prod.title} ></Cards>))}
+          {productos.map((prod)=>(<Cards prod={prod} key={prod.id} ></Cards>))}
         </div>
       </>
     )

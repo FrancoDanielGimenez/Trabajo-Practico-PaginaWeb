@@ -24,7 +24,7 @@ function App() {
           <Route path='/CargaProductos' element={<CargaProductos/>} /> {/**Cargar los productos cargados*/}
           <Route path='/ModificarProductos' element={<ModificarProductos/>} /> {/**Modificar los productos cargados*/}
           <Route path='/ListaProductos' element={<ListaProductos/>} /> {/**Lista los productos cargados*/}
-          <Route path='/productos/:idprod' element={<VerProductos/>} /> {/**Ver Productos*/}
+          <Route path='/productos/:id' element={<VerProductos/>} /> {/**Ver Productos*/}
           <Route path='/RegistroNewUsuario' element={<RegistroNewUsuario/>} /> {/**Registrar nuevo Usuario Cliente o Proveedor*/}
           <Route path='/CompraProductos' element={<CompraProductos/>} /> {/**Registrar nuevo Usuario Cliente o Proveedor*/}
         </Routes>
