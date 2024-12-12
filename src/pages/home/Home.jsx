@@ -32,7 +32,7 @@ const Home = () =>{
               }}/>
           </div>
           <h1>Home</h1>
-          {productos.map((prod)=>(<Cards prod={prod} key={prod.id} ></Cards>))}
+          {elementos.map((prod)=>(<Cards prod={prod} key={prod.title} ></Cards>))}
         </div>
       </>
     )

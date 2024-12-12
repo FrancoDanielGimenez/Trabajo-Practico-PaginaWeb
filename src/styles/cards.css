@@ -1,4 +1,5 @@
 .contenier_cards{
+    align-items: initial;
     border: solid ;
     height: 400px;
     width: 400px;
